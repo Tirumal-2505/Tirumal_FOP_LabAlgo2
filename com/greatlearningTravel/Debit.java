@@ -12,8 +12,8 @@ public class Debit {
 		int size = s.nextInt();
 		int arr[] = new int[size];
 		
+		System.out.println("Enter the curency denominations value: ");
 		for(int i=0; i<arr.length;i++) {
-			System.out.println("Enter the curency denominations value: ");
 			arr[i] = s.nextInt();
 			System.out.println(arr[i]);
 		}
