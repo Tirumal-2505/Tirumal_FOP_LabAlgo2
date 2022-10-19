@@ -23,7 +23,7 @@ public class Money {
 	for(int i=0; i<arr.length;i++) {
 		System.out.println("Elements at " +i + " position is ");
 		arr[i] = s.nextInt();
-		System.out.ptinrln(arr[i]);
+		System.out.println(arr[i]);
 	}
 	System.out.println("The transactions are as follows:");
 	System.out.println(Arrays.toString(arr)+" ");
